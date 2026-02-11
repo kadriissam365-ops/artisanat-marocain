@@ -224,7 +224,7 @@ async function main() {
       dimensions: '45 cm chaine, 8 cm pendentif',
       weight: 0.065,
       categoryId: bijoux.id,
-      image: 'https://images.unsplash.com/photo-1515562141589-67f0d87094a8?w=800',
+      image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800',
     },
 
     // Maroquinerie
@@ -261,7 +261,7 @@ async function main() {
       dimensions: 'Tailles 38-45',
       weight: 0.35,
       categoryId: maroquinerie.id,
-      image: 'https://images.unsplash.com/photo-1608731267464-c0c889c02894?w=800',
+      image: 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800',
     },
 
     // Bois

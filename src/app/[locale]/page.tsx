@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { HeroSection } from '@/components/home/HeroSection';
-import { FeaturedProducts } from '@/components/home/FeaturedRaces';
+import { FeaturedProducts } from '@/components/home/FeaturedProducts';
+import { CategoriesSection } from '@/components/home/CategoriesSection';
 import { ServicesSection } from '@/components/home/ServicesSection';
 import { AboutSection } from '@/components/home/AboutSection';
 
@@ -15,6 +16,7 @@ export default async function HomePage({ params }: HomePageProps) {
   return (
     <>
       <HeroSection />
+      <CategoriesSection />
       <FeaturedProducts />
       <ServicesSection />
       <AboutSection />

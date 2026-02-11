@@ -1,15 +1,13 @@
 'use client';
 
-import { useTranslations, useLocale } from 'next-intl';
+import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import { ProductCard } from '@/components/product/ProductCard';
 import { useFeaturedProducts } from '@/hooks/useProducts';
 
 export function FeaturedProducts() {
-  const t = useTranslations('categories');
-  const tCommon = useTranslations('common');
   const locale = useLocale();
   const { products, isLoading } = useFeaturedProducts();
 
@@ -18,11 +16,11 @@ export function FeaturedProducts() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-terracotta-700 mb-4">
-            {t('title')}
+            Produits en Vedette
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-terracotta-500 to-sand-400 mx-auto rounded-full" />
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            {t('subtitle')}
+            Decouvrez nos pieces les plus populaires, selectionnees pour leur qualite exceptionnelle
           </p>
         </div>
 
@@ -50,7 +48,7 @@ export function FeaturedProducts() {
         <div className="text-center mt-10">
           <Button variant="outline" size="lg" asChild className="border-terracotta-300 text-terracotta-700 hover:bg-terracotta-50">
             <Link href="/boutique" className="group">
-              {tCommon('viewAll')}
+              Voir toute la boutique
               <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform rtl:rotate-180 rtl:ml-0 rtl:mr-2" />
             </Link>
           </Button>
