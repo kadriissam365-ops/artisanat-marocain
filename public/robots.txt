@@ -1,0 +1,21 @@
+# Robots.txt for Élevage Premium Maroc
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://elevage-premium.ma/sitemap.xml
+
+# Disallow admin and private paths
+Disallow: /api/
+Disallow: /admin/
+
+# Allow crawling of all public paths
+Allow: /fr/
+Allow: /ar/
+Allow: /fr/races/
+Allow: /ar/races/
+Allow: /fr/blog/
+Allow: /ar/blog/
+Allow: /fr/contact
+Allow: /ar/contact

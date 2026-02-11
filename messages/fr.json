@@ -1,0 +1,295 @@
+{
+  "common": {
+    "siteName": "Artisanat Marocain",
+    "home": "Accueil",
+    "shop": "Boutique",
+    "categories": "Categories",
+    "blog": "Blog",
+    "about": "Notre Histoire",
+    "contact": "Contact",
+    "cart": "Panier",
+    "wishlist": "Favoris",
+    "profile": "Mon Compte",
+    "orders": "Mes Commandes",
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "logout": "Deconnexion",
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher un produit artisanal...",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succes",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "viewAll": "Voir tout",
+    "learnMore": "En savoir plus",
+    "currency": "MAD",
+    "currencyEur": "EUR",
+    "phone": "+212 6 00 00 00 00",
+    "email": "contact@artisanat-marocain.ma",
+    "address": "Marrakech, Maroc",
+    "mad": "MAD",
+    "eur": "EUR",
+    "inStock": "En stock",
+    "lowStock": "Stock limite",
+    "outOfStock": "Rupture de stock",
+    "addToCart": "Ajouter au panier",
+    "unavailable": "Indisponible",
+    "artisan": "Artisan",
+    "origin": "Origine",
+    "materials": "Materiaux",
+    "dimensions": "Dimensions",
+    "weight": "Poids"
+  },
+  "hero": {
+    "title": "L'Art Ancestral du Maroc, Livre chez Vous",
+    "subtitle": "Decouvrez notre collection d'artisanat marocain authentique. Tapis berberes, poterie de Fes, zellige, cuir et bois sculpte - chaque piece raconte une histoire.",
+    "cta": "Explorer la Boutique",
+    "stats": {
+      "products": "Produits",
+      "artisans": "Artisans",
+      "cities": "Villes",
+      "clients": "Clients satisfaits"
+    }
+  },
+  "categories": {
+    "title": "Nos Categories",
+    "subtitle": "Explorez notre selection d'artisanat marocain par categorie",
+    "viewProducts": "Voir les produits",
+    "productCount": "{count} produits"
+  },
+  "product": {
+    "by": "Par",
+    "from": "A partir de",
+    "details": "Details du produit",
+    "description": "Description",
+    "characteristics": "Caracteristiques",
+    "reviews": "Avis clients",
+    "reviewCount": "{count} avis",
+    "relatedProducts": "Produits similaires",
+    "addToWishlist": "Ajouter aux favoris",
+    "removeFromWishlist": "Retirer des favoris",
+    "share": "Partager",
+    "sku": "Reference",
+    "breadcrumb": {
+      "home": "Accueil"
+    },
+    "noResults": "Aucun produit ne correspond a vos criteres"
+  },
+  "filters": {
+    "title": "Filtres",
+    "category": "Categorie",
+    "all": "Toutes les categories",
+    "priceRange": "Fourchette de prix",
+    "minPrice": "Prix min",
+    "maxPrice": "Prix max",
+    "artisan": "Artisan",
+    "origin": "Origine",
+    "sort": "Trier par",
+    "sortOptions": {
+      "newest": "Plus recents",
+      "priceAsc": "Prix croissant",
+      "priceDesc": "Prix decroissant",
+      "nameAsc": "A-Z",
+      "nameDesc": "Z-A",
+      "popular": "Populaires"
+    },
+    "apply": "Appliquer",
+    "clear": "Effacer les filtres",
+    "results": "{count} resultats"
+  },
+  "cart": {
+    "title": "Mon Panier",
+    "empty": "Votre panier est vide",
+    "emptyMessage": "Decouvrez notre collection d'artisanat marocain authentique !",
+    "total": "Total",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "shippingCalculated": "Calcule a la commande",
+    "checkout": "Commander",
+    "continueShopping": "Continuer mes achats",
+    "remove": "Supprimer",
+    "quantity": "Quantite",
+    "itemAdded": "Produit ajoute au panier !",
+    "itemRemoved": "Produit retire du panier",
+    "quantityUpdated": "Quantite mise a jour",
+    "stockInsufficient": "Stock insuffisant"
+  },
+  "checkout": {
+    "title": "Finaliser la commande",
+    "steps": {
+      "info": "Informations",
+      "shipping": "Livraison",
+      "payment": "Paiement"
+    },
+    "customerInfo": {
+      "title": "Informations personnelles",
+      "firstName": "Prenom",
+      "lastName": "Nom",
+      "email": "Email",
+      "phone": "Telephone"
+    },
+    "shippingInfo": {
+      "title": "Adresse de livraison",
+      "street": "Adresse",
+      "street2": "Complement d'adresse",
+      "city": "Ville",
+      "state": "Region",
+      "postalCode": "Code postal",
+      "country": "Pays",
+      "notes": "Instructions de livraison"
+    },
+    "payment": {
+      "title": "Paiement",
+      "method": "Mode de paiement",
+      "card": "Carte bancaire",
+      "terms": "J'accepte les conditions generales de vente"
+    },
+    "buttons": {
+      "previous": "Precedent",
+      "next": "Suivant",
+      "confirm": "Confirmer la commande"
+    },
+    "confirmation": {
+      "title": "Commande confirmee !",
+      "orderNumber": "N de commande",
+      "emailSent": "Vous recevrez un email de confirmation a",
+      "thanks": "Merci de votre confiance !"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "email": "Email",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgotPassword": "Mot de passe oublie ?",
+      "noAccount": "Pas encore de compte ?",
+      "success": "Connexion reussie !",
+      "error": "Email ou mot de passe incorrect"
+    },
+    "register": {
+      "title": "Inscription",
+      "firstName": "Prenom",
+      "lastName": "Nom",
+      "email": "Email",
+      "phone": "Telephone",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "S'inscrire",
+      "hasAccount": "Deja un compte ?",
+      "success": "Compte cree avec succes !",
+      "error": "Erreur lors de l'inscription"
+    },
+    "loginRequired": "Veuillez vous connecter pour continuer"
+  },
+  "profile": {
+    "title": "Mon Compte",
+    "info": "Informations personnelles",
+    "addresses": "Mes adresses",
+    "updateSuccess": "Profil mis a jour avec succes"
+  },
+  "orders": {
+    "title": "Mes Commandes",
+    "empty": "Aucune commande pour le moment",
+    "status": {
+      "pending": "En attente",
+      "confirmed": "Confirmee",
+      "processing": "En preparation",
+      "shipped": "Expediee",
+      "delivered": "Livree",
+      "cancelled": "Annulee",
+      "refunded": "Remboursee"
+    },
+    "detail": "Details de la commande"
+  },
+  "wishlist": {
+    "title": "Mes Favoris",
+    "empty": "Votre liste de favoris est vide",
+    "addedToCart": "Ajoute au panier depuis les favoris"
+  },
+  "services": {
+    "title": "Pourquoi Nous Choisir",
+    "authenticity": {
+      "title": "Artisanat Authentique",
+      "description": "Chaque piece est fabriquee a la main par des maitres artisans marocains, perpetuant un savoir-faire ancestral."
+    },
+    "quality": {
+      "title": "Qualite Certifiee",
+      "description": "Nous selectionnons chaque produit avec soin pour garantir une qualite exceptionnelle et des materiaux nobles."
+    },
+    "shipping": {
+      "title": "Livraison Soignee",
+      "description": "Emballage protecteur sur mesure et livraison assuree dans tout le Maroc et a l'international."
+    },
+    "support": {
+      "title": "Service Client",
+      "description": "Notre equipe vous accompagne avant, pendant et apres votre achat. Satisfaction garantie."
+    }
+  },
+  "about": {
+    "title": "Notre Histoire",
+    "description": "Depuis des generations, le Maroc est reconnu pour la richesse et la diversite de son artisanat. Nous avons pour mission de faire decouvrir ces tresors au monde entier, tout en soutenant les artisans locaux.",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Rapprocher les artisans marocains du monde entier en proposant des pieces authentiques et uniques."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "description": "Authenticite, qualite, commerce equitable et respect des traditions ancestrales."
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "N'hesitez pas a nous contacter pour toute question sur nos produits artisanaux",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "subject": "Sujet",
+      "subjects": {
+        "info": "Demande d'information",
+        "order": "Question sur une commande",
+        "custom": "Commande personnalisee",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "success": "Message envoye avec succes ! Nous vous repondrons dans les plus brefs delais."
+    }
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "shopCategories": "Boutique",
+    "customerService": "Service Client",
+    "shipping": "Livraison",
+    "returns": "Retours",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Votre email",
+    "subscribe": "S'abonner",
+    "copyright": "Tous droits reserves.",
+    "legalNotice": "Mentions legales",
+    "privacy": "Politique de confidentialite",
+    "terms": "CGV"
+  },
+  "errors": {
+    "notFound": "Page non trouvee",
+    "notFoundMessage": "La page que vous recherchez n'existe pas.",
+    "backHome": "Retour a l'accueil",
+    "generic": "Une erreur s'est produite",
+    "tryAgain": "Reessayer"
+  },
+  "notifications": {
+    "welcome": "Bienvenue sur Artisanat Marocain !",
+    "filtersApplied": "Filtres appliques !",
+    "filtersCleared": "Filtres effaces !",
+    "orderSuccess": "Commande envoyee avec succes !",
+    "loginRequired": "Veuillez vous connecter",
+    "productNotAvailable": "Ce produit n'est pas disponible"
+  }
+}

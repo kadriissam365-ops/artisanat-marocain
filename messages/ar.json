@@ -1,0 +1,295 @@
+{
+  "common": {
+    "siteName": "الصناعة التقليدية الفاخرة",
+    "home": "الرئيسية",
+    "shop": "المتجر",
+    "categories": "الأقسام",
+    "blog": "المدونة",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "cart": "السلة",
+    "wishlist": "المفضلة",
+    "profile": "حسابي",
+    "orders": "طلباتي",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "search": "بحث",
+    "searchPlaceholder": "ابحث عن منتج تقليدي...",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "viewAll": "عرض الكل",
+    "learnMore": "معرفة المزيد",
+    "currency": "درهم",
+    "currencyEur": "يورو",
+    "phone": "+212 6 00 00 00 00",
+    "email": "contact@elevage-premium.ma",
+    "address": "مراكش، المغرب",
+    "mad": "درهم",
+    "eur": "يورو",
+    "inStock": "متوفر",
+    "lowStock": "كمية محدودة",
+    "outOfStock": "غير متوفر",
+    "addToCart": "أضف إلى السلة",
+    "unavailable": "غير متاح",
+    "artisan": "الحرفي",
+    "origin": "المنشأ",
+    "materials": "المواد",
+    "dimensions": "الأبعاد",
+    "weight": "الوزن"
+  },
+  "hero": {
+    "title": "الفن المغربي الأصيل في متناول يدك",
+    "subtitle": "اكتشف مجموعتنا الفريدة من الصناعة التقليدية المغربية. زرابي أمازيغية، فخار فاس، زليج، جلد وخشب منقوش - كل قطعة تحكي قصة.",
+    "cta": "استكشف المتجر",
+    "stats": {
+      "products": "منتج",
+      "artisans": "حرفي",
+      "cities": "مدينة",
+      "clients": "عميل راضٍ"
+    }
+  },
+  "categories": {
+    "title": "أقسامنا",
+    "subtitle": "استكشف مجموعتنا من الصناعة التقليدية المغربية حسب القسم",
+    "viewProducts": "عرض المنتجات",
+    "productCount": "{count} منتج"
+  },
+  "product": {
+    "by": "من صنع",
+    "from": "ابتداءً من",
+    "details": "تفاصيل المنتج",
+    "description": "الوصف",
+    "characteristics": "الخصائص",
+    "reviews": "تقييمات العملاء",
+    "reviewCount": "{count} تقييم",
+    "relatedProducts": "منتجات مشابهة",
+    "addToWishlist": "أضف للمفضلة",
+    "removeFromWishlist": "إزالة من المفضلة",
+    "share": "مشاركة",
+    "sku": "المرجع",
+    "breadcrumb": {
+      "home": "الرئيسية"
+    },
+    "noResults": "لا توجد منتجات تطابق معاييرك"
+  },
+  "filters": {
+    "title": "التصفية",
+    "category": "القسم",
+    "all": "جميع الأقسام",
+    "priceRange": "نطاق السعر",
+    "minPrice": "الحد الأدنى",
+    "maxPrice": "الحد الأقصى",
+    "artisan": "الحرفي",
+    "origin": "المنشأ",
+    "sort": "ترتيب حسب",
+    "sortOptions": {
+      "newest": "الأحدث",
+      "priceAsc": "السعر: من الأقل",
+      "priceDesc": "السعر: من الأعلى",
+      "nameAsc": "أ-ي",
+      "nameDesc": "ي-أ",
+      "popular": "الأكثر شعبية"
+    },
+    "apply": "تطبيق",
+    "clear": "مسح الفلاتر",
+    "results": "{count} نتيجة"
+  },
+  "cart": {
+    "title": "سلة المشتريات",
+    "empty": "سلتك فارغة",
+    "emptyMessage": "اكتشف مجموعتنا من الصناعة التقليدية المغربية الأصيلة!",
+    "total": "المجموع",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "التوصيل",
+    "shippingCalculated": "يُحسب عند الطلب",
+    "checkout": "إتمام الطلب",
+    "continueShopping": "متابعة التسوق",
+    "remove": "حذف",
+    "quantity": "الكمية",
+    "itemAdded": "تمت الإضافة إلى السلة!",
+    "itemRemoved": "تم الحذف من السلة",
+    "quantityUpdated": "تم تحديث الكمية",
+    "stockInsufficient": "المخزون غير كافٍ"
+  },
+  "checkout": {
+    "title": "إتمام الطلب",
+    "steps": {
+      "info": "المعلومات",
+      "shipping": "التوصيل",
+      "payment": "الدفع"
+    },
+    "customerInfo": {
+      "title": "المعلومات الشخصية",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف"
+    },
+    "shippingInfo": {
+      "title": "عنوان التوصيل",
+      "street": "العنوان",
+      "street2": "تكملة العنوان",
+      "city": "المدينة",
+      "state": "الجهة",
+      "postalCode": "الرمز البريدي",
+      "country": "البلد",
+      "notes": "تعليمات التوصيل"
+    },
+    "payment": {
+      "title": "الدفع",
+      "method": "طريقة الدفع",
+      "card": "بطاقة بنكية",
+      "terms": "أوافق على الشروط والأحكام العامة للبيع"
+    },
+    "buttons": {
+      "previous": "السابق",
+      "next": "التالي",
+      "confirm": "تأكيد الطلب"
+    },
+    "confirmation": {
+      "title": "تم تأكيد الطلب!",
+      "orderNumber": "رقم الطلب",
+      "emailSent": "ستتلقى بريد تأكيد على",
+      "thanks": "شكراً لثقتك!"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "submit": "تسجيل الدخول",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "noAccount": "ليس لديك حساب؟",
+      "success": "تم تسجيل الدخول بنجاح!",
+      "error": "البريد الإلكتروني أو كلمة المرور غير صحيحة"
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "submit": "إنشاء حساب",
+      "hasAccount": "لديك حساب بالفعل؟",
+      "success": "تم إنشاء الحساب بنجاح!",
+      "error": "حدث خطأ أثناء التسجيل"
+    },
+    "loginRequired": "يرجى تسجيل الدخول للمتابعة"
+  },
+  "profile": {
+    "title": "حسابي",
+    "info": "المعلومات الشخصية",
+    "addresses": "عناويني",
+    "updateSuccess": "تم تحديث الملف الشخصي بنجاح"
+  },
+  "orders": {
+    "title": "طلباتي",
+    "empty": "لا توجد طلبات حتى الآن",
+    "status": {
+      "pending": "قيد الانتظار",
+      "confirmed": "مؤكد",
+      "processing": "قيد التحضير",
+      "shipped": "تم الشحن",
+      "delivered": "تم التسليم",
+      "cancelled": "ملغى",
+      "refunded": "مسترجع"
+    },
+    "detail": "تفاصيل الطلب"
+  },
+  "wishlist": {
+    "title": "المفضلة",
+    "empty": "قائمة المفضلة فارغة",
+    "addedToCart": "تمت الإضافة للسلة من المفضلة"
+  },
+  "services": {
+    "title": "لماذا تختارنا",
+    "authenticity": {
+      "title": "صناعة تقليدية أصيلة",
+      "description": "كل قطعة مصنوعة يدوياً على أيدي أمهر الحرفيين المغاربة، حفاظاً على إرث الأجداد."
+    },
+    "quality": {
+      "title": "جودة معتمدة",
+      "description": "نختار كل منتج بعناية لضمان جودة استثنائية ومواد نبيلة."
+    },
+    "shipping": {
+      "title": "توصيل آمن",
+      "description": "تغليف واقي مخصص وتوصيل مؤمن في جميع أنحاء المغرب ودولياً."
+    },
+    "support": {
+      "title": "خدمة العملاء",
+      "description": "فريقنا يرافقك قبل وأثناء وبعد الشراء. رضاك مضمون."
+    }
+  },
+  "about": {
+    "title": "قصتنا",
+    "description": "منذ أجيال، يُعرف المغرب بغنى وتنوع صناعته التقليدية. مهمتنا هي تعريف العالم بهذه الكنوز، مع دعم الحرفيين المحليين.",
+    "mission": {
+      "title": "مهمتنا",
+      "description": "تقريب الحرفيين المغاربة من العالم بأسره من خلال تقديم قطع أصيلة وفريدة."
+    },
+    "values": {
+      "title": "قيمنا",
+      "description": "الأصالة، الجودة، التجارة العادلة واحترام التقاليد العريقة."
+    }
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "subtitle": "لا تتردد في التواصل معنا لأي سؤال حول منتجاتنا الحرفية",
+    "form": {
+      "name": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "subject": "الموضوع",
+      "subjects": {
+        "info": "طلب معلومات",
+        "order": "سؤال عن طلب",
+        "custom": "طلب مخصص",
+        "other": "أخرى"
+      },
+      "message": "الرسالة",
+      "submit": "إرسال الرسالة",
+      "success": "تم إرسال الرسالة بنجاح! سنرد عليك في أقرب وقت."
+    }
+  },
+  "footer": {
+    "navigation": "التنقل",
+    "shopCategories": "المتجر",
+    "customerService": "خدمة العملاء",
+    "shipping": "التوصيل",
+    "returns": "الإرجاع",
+    "faq": "أسئلة شائعة",
+    "contact": "اتصل بنا",
+    "followUs": "تابعونا",
+    "newsletter": "النشرة الإخبارية",
+    "newsletterPlaceholder": "بريدك الإلكتروني",
+    "subscribe": "اشترك",
+    "copyright": "جميع الحقوق محفوظة.",
+    "legalNotice": "إشعارات قانونية",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط البيع"
+  },
+  "errors": {
+    "notFound": "الصفحة غير موجودة",
+    "notFoundMessage": "الصفحة التي تبحث عنها غير موجودة.",
+    "backHome": "العودة للرئيسية",
+    "generic": "حدث خطأ",
+    "tryAgain": "حاول مرة أخرى"
+  },
+  "notifications": {
+    "welcome": "مرحباً بك في الصناعة التقليدية الفاخرة!",
+    "filtersApplied": "تم تطبيق الفلاتر!",
+    "filtersCleared": "تم مسح الفلاتر!",
+    "orderSuccess": "تم إرسال الطلب بنجاح!",
+    "loginRequired": "يرجى تسجيل الدخول",
+    "productNotAvailable": "هذا المنتج غير متوفر"
+  }
+}

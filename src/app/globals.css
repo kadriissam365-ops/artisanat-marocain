@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 33% 99%;
+    --foreground: 20 10% 10%;
+    --card: 30 33% 99%;
+    --card-foreground: 20 10% 10%;
+    --popover: 30 33% 99%;
+    --popover-foreground: 20 10% 10%;
+    --primary: 16 44% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 37 42% 61%;
+    --secondary-foreground: 37 42% 15%;
+    --muted: 30 20% 95%;
+    --muted-foreground: 20 10% 45%;
+    --accent: 244 100% 69%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 16 44% 53%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 10% 5%;
+    --foreground: 30 20% 95%;
+    --card: 20 10% 8%;
+    --card-foreground: 30 20% 95%;
+    --popover: 20 10% 8%;
+    --popover-foreground: 30 20% 95%;
+    --primary: 16 44% 58%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 37 30% 25%;
+    --secondary-foreground: 37 42% 90%;
+    --muted: 20 10% 15%;
+    --muted-foreground: 30 15% 60%;
+    --accent: 244 100% 72%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 20 10% 18%;
+    --input: 20 10% 18%;
+    --ring: 16 44% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+/* RTL Support */
+[dir='rtl'] {
+  direction: rtl;
+}
+
+[dir='rtl'] .rtl\:space-x-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C1694F;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a85539;
+}
+
+/* Hero gradient - artisanat */
+.hero-gradient {
+  background: linear-gradient(135deg, #C1694F 0%, #8a4330 50%, #5a2d22 100%);
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(193, 105, 79, 0.15);
+}
+
+/* Button gradient - terracotta */
+.btn-gradient {
+  background: linear-gradient(45deg, #C1694F, #e28a5e);
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(45deg, #a85539, #C1694F);
+}
+
+/* Price tag */
+.price-tag {
+  color: #C1694F;
+  font-weight: bold;
+}
+
+/* Stock indicator */
+.in-stock {
+  color: #1B5E3B;
+}
+
+.low-stock {
+  color: #C9A96E;
+}
+
+.out-of-stock {
+  color: #dc3545;
+}
+
+/* WhatsApp button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  background: #25D366;
+  border-radius: 50%;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
+[dir='rtl'] .whatsapp-float {
+  right: auto;
+  left: 24px;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
